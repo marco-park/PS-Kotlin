@@ -1,4 +1,4 @@
-package programmers.`68644`
+package programmers.no68644
 
 import java.util.*
 
@@ -15,7 +15,7 @@ class Solution {
 }
 
 fun main() {
-    val s = Solution()
-    val ret = s.solution(intArrayOf(5,0,2,7))
-    for (i in ret) print("$i ")
+    val n = Solution().solution(intArrayOf(2,1,3,4,1))
+    val a = intArrayOf(2,3,4,5,6,7)
+    print(n.contentEquals(a))
 }
