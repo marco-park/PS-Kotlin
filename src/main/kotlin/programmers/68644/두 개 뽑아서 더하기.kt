@@ -5,7 +5,7 @@ import java.util.*
 class Solution {
     fun solution(numbers: IntArray): IntArray {
         val answer = TreeSet<Int>()
-        numbers.forEachIndexed { i ,e1 -> 
+        numbers.forEachIndexed { i, e1 ->
             numbers.forEachIndexed { j, e2 ->
                 if (i != j) answer.add(e1 + e2)
             }
